@@ -113,7 +113,7 @@ In order to balance annotation costs and caption accuracy, we uniformly sample 8
 <div style="display:inline-block" align=center>Word cloud of short captions. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Word cloud of dense captions.</div>
 
 
-## Benchmark
+## Benchmark - MiraBench
 
 To evaluate long video generation, we design 17 evaluation metrics in MiraBench from 6 perspectives, including temporal consistency, temporal motion strength, 3D consistency, visual quality, text-video alignment, and distribution consistency. These metrics encompass most of the common evaluation standards used in previous video generation models and text-to-video benchmarks.
 
