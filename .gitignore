@@ -1,0 +1,4 @@
+data/*
+!data/evaluation_example
+__pycache__
+.vscode
