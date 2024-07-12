@@ -10,6 +10,7 @@
 > <sup>1</sup>ARC Lab, Tencent PCG  <sup>2</sup>The Chinese University of Hong Kong  <sup>*</sup>Equal Contribution  <sup>#</sup>Project Lead
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/abs/2407.06358v1) [![Project Page](https://img.shields.io/badge/Project-Website-green)](https://mira-space.github.io/) [![Data Link](https://img.shields.io/badge/Data-Link-blue)](https://drive.google.com/drive/folders/1U9x6VeasgjxSuuKcCgY6K8CVy9EKEt80?usp=sharing)
+[![🤗Hugging Face Dataset](https://img.shields.io/badge/🤗HF-Dataset-yellow)](https://huggingface.co/datasets/TencentARC/MiraData)
 </div>
 
 ## Introduction
@@ -34,7 +35,7 @@ You can find more details in our [research papaer]().
 
 We release four versions of MiraData, containing 330K, 93K, 42K, 9K data.
 
-The meta file for this version of MiraData is provided [here](https://drive.google.com/drive/folders/1U9x6VeasgjxSuuKcCgY6K8CVy9EKEt80?usp=sharing). Additionally, for a better and quicker understanding of our meta file composition, we randomly sample a set of 100 video clips, which can be accessed [here](assets/miradata_v1_100_samples.csv). The meta file contains the following index information:
+The meta file for this version of MiraData is provided in [Google Drive](https://drive.google.com/drive/folders/1U9x6VeasgjxSuuKcCgY6K8CVy9EKEt80?usp=sharing) and [HuggingFace Dataset](https://huggingface.co/datasets/TencentARC/MiraData). Additionally, for a better and quicker understanding of our meta file composition, we randomly sample a set of 100 video clips, which can be accessed [here](assets/miradata_v1_100_samples.csv). The meta file contains the following index information:
 
 - **clip_id**: video clip index, which is composed of `{download_id}.{clip_id}`
 - **source**: video download source and category
@@ -62,7 +63,7 @@ The meta file for this version of MiraData is provided [here](https://drive.goog
 
 ### Download
 
-To download the videos and split the videos into clips, you can use the following scripts:
+To download the videos and split them into clips, start by downloading the meta files from [Google Drive](https://drive.google.com/drive/folders/1U9x6VeasgjxSuuKcCgY6K8CVy9EKEt80?usp=sharing) or [HuggingFace Dataset](https://huggingface.co/datasets/TencentARC/MiraData). Once you have the meta files, you can use the following scripts to download the video samples:
 
 ```
 python download_data.py --meta_csv {meta file} --download_start_id {the start of download id} --download_end_id {the end of download id} --raw_video_save_dir {the path of saving raw videos} --clip_video_save_dir {the path of saving cutted video}
