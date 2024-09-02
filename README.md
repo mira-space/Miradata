@@ -163,4 +163,4 @@ For any inquiries, please email `mira-x@googlegroups.com`.
 
 ## Licence
 
-MiraData is under the GPL-v3 Licence and is supported for commercial usage. If you need a commercial license for YOLO-World, please feel free to contact us.
+MiraData is under the GPL-v3 Licence and is supported for commercial usage. If you need a commercial license for MiraData, please feel free to contact us.
